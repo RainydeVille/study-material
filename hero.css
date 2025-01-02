@@ -1,0 +1,62 @@
+.heroSection {
+    color: var(--white);
+    gap: 120px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 30px;
+    padding-bottom: 100px;
+    .heroText {
+        max-width: 450px;
+    .welcome {
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        padding: none;
+        color: var(--white);
+    }
+
+    h1 {
+        font-family: "Crimson text", serif;
+        font-weight: 700;
+        font-size: 40px;
+        margin: 15px 0px;
+    }
+
+    p {
+        color: var(--greywhite);
+    }
+
+    button {
+        padding: 12px 50px;
+        border: none;
+        border-radius: 5px;
+        background-color: var(--white);
+        font-size: 20px;
+        margin-top: 20px;
+        cursor: pointer;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+}
+    .heroImage {
+        max-width: 600px;
+        flex-grow: 1;
+        flex-basis: 340px;
+        flex-shrink: 1;
+        img {
+            width: 100%;
+        }
+}
+}
+
+@media only screen and (max-width: 950px) {
+    .background {
+        max-height: 100%;
+    }
+    .heroSection {
+        flex-wrap: wrap-reverse;
+        padding-bottom: 60px;
+    }
+    .heroImage {
+        flex-basis: auto;
+    }
+}

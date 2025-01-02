@@ -1,0 +1,28 @@
+.partnerSection {
+    padding: 70px 0;
+    .partnerText {
+        text-align: center;
+        h2 {
+            margin: 20px 0;
+        }
+        p {
+            font-size: 20px;
+            line-height: 40px;
+            max-width: 410px;
+        }
+    }
+    .imageRow {
+        margin: 40px 0;
+        img {
+            padding: 30px 10px;
+        }
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .imageRow {
+        img {
+            margin: 0 50px;
+        }
+    }
+}

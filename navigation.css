@@ -1,0 +1,32 @@
+.navigationLine {
+     color: var(--white);
+     font-size: 20px;
+     padding: 35px 20px;
+    .navLogo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 10px;
+    }
+    ul {
+        display: flex;
+        gap: 30px;
+        li {
+            list-style: none;
+            cursor: pointer;
+        }
+    }
+}
+
+.mobileMenu {
+    display: none;
+}
+
+@media only screen and (max-width: 950px){
+    nav {
+        display: none;
+    }
+    .mobileMenu {
+        display: block;
+    }
+}
