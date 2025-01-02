@@ -1,1 +1,1 @@
-# study-material
+# example of media adaptability.
